@@ -1,0 +1,380 @@
+{
+    "RNG": {
+        "win": 5,
+        "loss": 5,
+        "lost": 2,
+        "divisor": 0
+    },
+    "win": [
+        {
+            "display": "Normal",
+            "text": "🎉🐴🎉\n{user} has won a horse (100)! It's so normal...['](https://tenor.com/view/lol-what-horse-funny-weird-gif-5281776)",
+            "type": "normal",
+            "weight": 100
+        },
+        {
+            "display": "Lazy",
+            "text": "🎉🐴🎉\nLooks pretty heavy {user} (100)...\n['](https://media1.tenor.com/m/F02lwzSKPSAAAAAd/horse-man-drunk-carrying-a-horse.gif)",
+            "type": "lazy",
+            "weight": 100
+        },
+        {
+            "display": "Hungry",
+            "text": "🎉🐴🎉\n{user}'s horse is very hungry (90)! but how hungry?\n ['](https://tenor.com/view/claranom-claraomnom-clara-omnomnom-cute-gif-15545582436993211645)",
+            "type": "hungry",
+            "weight": 90
+        },
+        {
+            "display": "Suspicious",
+            "text": "🎉🐴🎉\n{user}'s horse is quite suspicious of {user} (80).\n ['](https://tenor.com/view/uh-gif-230597167926076170)",
+            "type": "suspicious",
+            "weight": 80
+        },
+        {
+            "display": "Armed",
+            "text": "🎉🐴🎉\nRUN {user}'s HORSE HAS A GUN (70)!\n ['](https://tenor.com/view/horse-reload-horse-mask-guns-gif-17978392)",
+            "type": "gun",
+            "weight": 70
+        },
+        {
+            "display": "Juked",
+            "text": "🎉🐴🎉\n{user} just juked a horse(70)!\n ['](https://media1.tenor.com/m/M5BAKIYa-nIAAAAd/black-cowgirl.gif)",
+            "type": "juked",
+            "weight": 70
+        },
+        {
+            "display": "Zesty",
+            "text": "🎉🐴🎉\nOH NO! {user}'s horse is getting zesty (60)!!!!!\n ['](https://tenor.com/view/horse-derp-tongue-lick-beffen-gif-16516227)",
+            "type": "zesty",
+            "weight": 60
+        },
+        {
+            "display": "Plinko",
+            "text": "🎉🐴🎉\n{user} got a plinko honse (60)!\n ['](https://tenor.com/view/polygon-zed-zedrun-horse-gif-25161220)",
+            "type": "plinko",
+            "weight": 60
+        },
+        {
+            "display": "Fake",
+            "text": "🎉🐴🎉\n{user}, is this even a real honse (50)? I can't quite tell...\n ['](https://tenor.com/view/horse-horse-shock-gif-23419738)",
+            "type": "fake",
+            "weight": 50
+        },
+        {
+            "text": "🎉🐴🎉\n{user} has gotten a partial horse!(50) ",
+            "combo": {
+                "display": "Partial",
+                "into": "girl",
+                "isLoopable": true,
+                "order": [
+                    "(1/9)\n['](https://media.tenor.com/3E-2DbOUIp4AAAAj/horse-spin.gif)",
+                    "(2/9)\n['](https://media.tenor.com/MPlFg4szIYwAAAAj/horse-spin.gif)",
+                    "(3/9)\n['](https://media.tenor.com/B8MIzM561ZIAAAAj/horse-spin.gif)",
+                    "(4/9)\n['](https://media.tenor.com/UaaFgSx4oEYAAAAj/horse-spin.gif)",
+                    "(5/9)\n['](https://media.tenor.com/FPaJZp9zzH0AAAAj/horse-spin.gif)",
+                    "(6/9)\n['](https://media.tenor.com/hQisd-kPDaYAAAAj/horse-spin.gif)",
+                    "(7/9)\n['](https://media.tenor.com/dgR1YAwd5CIAAAAj/horse-spin.gif)",
+                    "(8/9)\n['](https://media.tenor.com/GpwfSGFQrqMAAAAj/horse-spin.gif)",
+                    "(9/9)\n['](https://media.tenor.com/ETIC7A7Px6YAAAAj/horse-spin.gif)"
+                ]
+            },
+            "type": "partial",
+            "canLose": false,
+            "weight": 50
+        },
+        {
+            "display": "Stupid",
+            "text": "🎉🐴🎉\n{user}'s horse has a few brain issues (50)... A few...\n ['](https://tenor.com/view/horse-animal-funny-funny-horse-funny-animal-gif-10472912058037348017)",
+            "type": "stupid",
+            "weight": 50
+        },
+        {
+            "display": "Wet",
+            "text": "🎉🐴🎉\n{user}'s horse might be a little wet (50)...\n ['](https://tenor.com/view/seahorse-georgia-aquarium-animals-gif-3484574)",
+            "type": "wet",
+            "weight": 50
+        },
+        {
+            "display": "Waiter",
+            "text": "🎉🐴🎉\n{user}, did you leave your horse at home again? (50)...\n ['](https://media1.tenor.com/m/68df2Rud1AEAAAAd/horse.gif)",
+            "type": "waiter",
+            "weight": 50
+        },
+        {
+            "display": "Bipedal",
+            "text": "🎉🐴🎉\n{user}'s horse is bipedal (40)?\n ['](https://tenor.com/view/horse-running-headless-horseman-gif-24355994)",
+            "type": "bipedal",
+            "weight": 40
+        },
+        {
+            "display": "Stare",
+            "text": "🎉🐴🎉\n{user}? What did you do (40)?\n ['](https://media1.tenor.com/m/OAWVT9nKghAAAAAd/f%C3%A4rd-pferd.gif)",
+            "type": "staremare",
+            "weight": 40
+        },
+        {
+            "display": "Kickflipped",
+            "text": "🎉🐴🎉\nHOLY SHIT {user} JUST KICKFLIPPED A HORSE (30)!\n ['](https://tenor.com/view/horse-kickflip-tobey-bird-kieran-culkin-saturday-night-live-doing-tricks-gif-23826420)",
+            "type": "kickflip",
+            "weight": 30
+        },
+        {
+            "display": "Maid",
+            "text": "🎉🐴🎉\nThis wasnt the maid {user} was expecting (30)...\n ['](https://media1.tenor.com/m/DVdQ4u9b8xoAAAAd/horse-sweep.gif)",
+            "type": "maid",
+            "weight": 30
+        },
+        {
+            "display": "Running",
+            "text": "🎉🐴🎉\n{user}'s horse is running with the wind (20)! Don't worry, they will come back.\n ['](https://tenor.com/view/horse-gif-27168916)",
+            "type": "run",
+            "weight": 30
+        },
+        {
+            "display": "Arriven",
+            "text": "🎉🐴🎉\n{user}'s horse has arrived (20)!\n ['](https://tenor.com/view/brisco-county-jr-horse-comet-i-am-here-here-i-am-gif-25505182)",
+            "type": "arriven",
+            "weight": 20
+        },
+        {
+            "display": "Office",
+            "text": "🎉🐴🎉\n{user}'s horse has a great job guys... or at least we'll tell it that (20).\n ['](https://tenor.com/view/wtf-horse-idek-juice-gif-14568873)",
+            "type": "office",
+            "weight": 20
+        },
+        {
+            "display": "Mewing",
+            "text": "🎉🐴🎉\nOH SNAP {user} got a mewing horse (10)!\n ['](https://tenor.com/view/bye-bye-mogged-mewing-looksmaxxing-horse-gif-8402458070362786768)",
+            "type": "mewing",
+            "weight": 10
+        },
+        {
+            "display": "Spring",
+            "text": "🎉🐴🎉\n{user}'s horse a lil boingo (10)!\n ['](https://media1.tenor.com/m/ZMPOCcUq6F4AAAAd/horse-horse-spring.gif)",
+            "type": "spring",
+            "weight": 10
+        },
+        {
+            "display": "Dark Mare",
+            "text": "🎉🦄🎉\nA wild dark mare has found {user} (1)!\n ['](https://media1.tenor.com/m/vQ1-xKvfUaQAAAAd/horse-black-horse.gif)",
+            "type": "darkmare",
+            "weight": 1,
+            "canLose": false
+        },
+        {
+            "display": "Party Animal",
+            "text": "🎉🦄🎉\nDAYM {user} LOOK AT THAT PARTY HORSE GO (1)!\n ['](https://media.tenor.com/n4OXEo9G2gsAAAAj/horse-party.gif)",
+            "type": "partyhorse",
+            "weight": 1,
+            "canLose": false
+        },
+        {
+            "display": "Hotty",
+            "text": "🎉🦄🎉\n{user}'s horse may be more attractive then them (1)!\n ['](https://media1.tenor.com/m/8izKP8hMvHkAAAAd/horse-funny.gif)",
+            "type": "hotty",
+            "weight": 1,
+            "canLose": false
+        },
+        {
+            "display": "Partial Health",
+            "text": "🎉🦄🎉\n{user}... Am I gonna get sued for this one (1)?\n ['](https://media1.tenor.com/m/hClirQhJkz4AAAAd/opposing-horse.gif)",
+            "type": "partialhealth",
+            "weight": 1,
+            "canLose": false
+        },
+        {
+            "display": "Mythic",
+            "text": "🎉🦄🎉\nI can't believe it (1). {user} got a mythic horse!\n ['](https://tenor.com/view/horse-blink-stare-windy-beautiful-gif-17246448)",
+            "type": "mythic",
+            "weight": 1,
+            "canLose": false
+        },
+        {
+            "display": "Stacked",
+            "text": "🎉🦄🎉\nI can't believe it (1). {user}'s horse is STACKING?!\n ['](https://tenor.com/view/musicians-of-blaviken-gwent-witcher-honse-horse-gif-24421552)",
+            "type": "stack",
+            "weight": 1,
+            "canLose": false
+        },
+        {
+            "display": "Honse",
+            "text": "🎉🦄🎉\nWHAT THE FUCK {user} WHAT DID YOU DO (1)?!\n ['](https://tenor.com/view/honse-1st-delaware-war-of-rights-1st-de-gif-18969268)",
+            "type": "honse",
+            "weight": 1,
+            "canLose": false
+        },
+        {
+            "display": "Infinite Power",
+            "text": "🎉🦄🎉\n{user} HAS INFINITE HORSE POWER (1)!\n ['](https://tenor.com/view/tomascore-horse-horsey-sad-horse-rain-horse-gif-11985712814172160170)",
+            "type": "infinite",
+            "weight": 1,
+            "canLose": false
+        },
+        {
+            "display": "\"Normal\"",
+            "text": "🎉🦄🎉\n{user} has won a horse (1)! It's so normal...\n ['](https://tenor.com/view/tomascore-horse-horsey-rain-horse-sad-horse-gif-13168372973302262607)",
+            "type": "normalmap",
+            "weight": 1,
+            "canLose": false
+        }
+    ],
+    "loss": [
+        {
+            "text": "Ah shucks {user} lost! You cat...\n:cat2:"
+        },
+        {
+            "text": "Oh man, thats not good {user}...\n:flushed:"
+        },
+        {
+            "text": "Ew, ugly ahh {user}.\n:face_vomiting:"
+        },
+        {
+            "text": "Nuh uh {user}!\n ['](https://tenor.com/view/cat-nuh-uh-meow-sniff-incorrect-gif-11442321997337963097)"
+        },
+        {
+            "text": "Big loss {user}, loser.\n ['](https://tenor.com/view/sogga-big-floppa-floppa-approve-gif-22537201)"
+        },
+        {
+            "text": "Consider {user}\n ['](https://tenor.com/view/air-swim-cat-gif-25752697)"
+        },
+        {
+            "text": "{user} lost, they going mad broke.\n ['](https://cdn.discordapp.com/attachments/1132787248497180753/1212183991185309798/image.png?ex=65f0e950&is=65de7450&hm=7ad5ee315b60fefc579f10e6aeeb950f545514c399c9225340ce4357d0e03198&)"
+        },
+        {
+            "text": "There there {user}, being a loser isnt that bad.\n ['](https://tenor.com/view/neko-pat-gif-18592698)"
+        },
+        {
+            "text": "{user} lost but like.\n ['](https://media.discordapp.net/attachments/753681704450785451/1207153281751588956/attachment.gif)"
+        },
+        {
+            "text": "{user} lost but like.\n ['](https://media.discordapp.net/attachments/753681704450785451/1216237215546343555/attachment.gif?ex=662bd26c&is=662a80ec&hm=cf91841d62e2b692255a25c18dfdba8d3206952ab32b9fd5962ed7d6582489ff&)"
+        },
+        {
+            "text": "{user} is stupid.\n ['](https://media.discordapp.net/attachments/952380799691391016/1123993965281153216/IMG_6446-1.gif)"
+        },
+        {
+            "text": "Lets party {user}.\n ['](https://media.discordapp.net/attachments/888312896923263006/989316533387927552/attachment.gif?ex=65b1a252&is=659f2d52&hm=607e4640373ad3d8a0231f39d61e4acd259df54d1bd43f85bed1001d5b5c06c9&)"
+        },
+        {
+            "text": "{user} when they switch back to the main channel,\n ['](https://tenor.com/view/sad-emoji-gif-25749073)"
+        },
+        {
+            "text": "{user}?\n['](https://tenor.com/view/so-ive-heard-kitty-cat-silly-silly-cat-gif-10924923130426536537)"
+        },
+        {
+            "text": "{user} has gotten Plink! ",
+            "combo": {
+                "display": "Plink",
+                "into": "plink",
+                "isLoopable": true,
+                "order": [
+                    "(1/6)\n['](https://tenor.com/view/plink-gif-27475997)",
+                    "(2/6)\n['](https://tenor.com/view/plink-wide-cat-plink-cat-meow-gif-27396868)",
+                    "(3/6)\n['](https://tenor.com/view/plink-crunchcat-crunch-cat-luna-cat-gif-16685906736315782080)",
+                    "(4/6)\n['](https://tenor.com/view/wide-cat-wider-gif-3879805434184283975)",
+                    "(5/6)\n['](https://tenor.com/view/plink-cat-plink-cat-meme-caption-gif-6012140701080223392)",
+                    "(6/6)\n['](https://tenor.com/view/plink-nerd-plank-plink-cat-cat-gif-17569403098672348326)"
+                ]
+            }
+        },
+        {
+            "text": "{user} has gotten...",
+            "combo": {
+                "display": "Sir Meowster",
+                "into": "sirmeowster",
+                "isLoopable": false,
+                "order": [
+                    " SIR MEOWSTER?! (1/4)\n['](https://cdn.discordapp.com/attachments/660284955103985678/1313739347392204820/1.png?ex=67513a9c&is=674fe91c&hm=1672e52131fbe2708847c10a734afc57cf3f322cedac842e81fe4bee11d60aae&)",
+                    " SIR MEOWSTER'S... suit?' (2/4)\n['](https://cdn.discordapp.com/attachments/660284955103985678/1313739353767280640/2.png?ex=67513a9e&is=674fe91e&hm=0a72303a932ab31f81f94552b4d266ad4dd848965b827324e9da27855235852a&)",
+                    " Why is he so legs? (3/4)\n['](https://cdn.discordapp.com/attachments/660284955103985678/1313739359144378379/3.png?ex=67513a9f&is=674fe91f&hm=9605c90304b9b8c922bc9f46339411bb5d244f16aa2184f79e48fd1f8e037337&)",
+                    " Oh damn... (4/4)\n['](https://cdn.discordapp.com/attachments/660284955103985678/1313739366157385778/4.png?ex=67513aa0&is=674fe920&hm=ee643e250b830a5bb1eb290ca2bcbe323dd9f029c00bedbb1f565187cbafb74b&)"
+                ]
+            }
+        }
+    ],
+    "lost": [
+        {
+            "text": "⚠️💀⚠️\n{user} had to return the {lost} horse.\n['](https://tenor.com/view/the-h-gif-26473004)"
+        },
+        {
+            "text": "⚠️💀⚠️\n{user}'s {lost} horse is too depressed.\n['](https://tenor.com/view/birdies-horse-gif-11288333927383710742)"
+        },
+        {
+            "text": "⚠️💀⚠️\n{user} lost {lost} horse privileges.\n['](https://tenor.com/view/horsepiv-gif-24660548)"
+        },
+        {
+            "text": "⚠️💀⚠️\n{user} ate a {lost} horse!\n['](https://tenor.com/view/matpat-eat-a-horse-horse-riding-eating-popcorn-gif-16386623494390781577)"
+        },
+        {
+            "text": "⚠️💀⚠️\n{user} was reported to the local authorities by the {lost} horse! For what crime!?\n['](https://tenor.com/view/horse-interview-microphone-horse-talking-news-gif-755519426988214132)"
+        },
+        {
+            "text": "⚠️💀⚠️\n{user} was body slammed by a {lost} horse.\n['](https://tenor.com/view/alzolanskii-horse-fall-gif-20063219)"
+        },
+        {
+            "text": "⚠️💀⚠️\nA {lost} horse ate {user}\n['](https://tenor.com/view/descojonacion-gif-1201525164583464210)"
+        },
+        {
+            "text": "⚠️💀⚠️\n{user}'s {lost} horse floated away!\n['](https://media1.tenor.com/m/ZSrJrkIg5gcAAAAd/horse-cavalo.gif)"
+        },
+        {
+            "text": "⚠️💀⚠️\n{user}'s dog stole a {lost}!!\n['](https://media1.tenor.com/m/vYRPy4ZEn2MAAAAd/horse.gif)"
+        },
+        {
+            "text": "⚠️💀⚠️\n{user}'s {lost} knows too much...\n['](https://media1.tenor.com/m/_WSjTCvMHjIAAAAd/i-know-what-you-are-horse.gif)"
+        },
+        {
+            "text": "⚠️💀⚠️\n{user}'s {lost}'s rehab didnt go quite so well...\n['](https://media1.tenor.com/m/fNV54G6VhlQAAAAd/horse-bojack-horseman.gif)"
+        },
+        {
+            "text": "⚠️💀⚠️{user} lost a {lost}...\n",
+            "combo": {
+                "display": "???",
+                "into": "sorrow",
+                "isLoopable": true,
+                "order": [
+                    "['](https://tenor.com/view/anime-grave-raining-rainy-day-gif-16551009)",
+                    "['](https://tenor.com/view/anime-grave-raining-rainy-day-gif-16551009)",
+                    "['](https://tenor.com/view/anime-grave-raining-rainy-day-gif-16551009)",
+                    "['](https://tenor.com/view/anime-grave-raining-rainy-day-gif-16551009)",
+                    "['](https://tenor.com/view/anime-grave-raining-rainy-day-gif-16551009)",
+                    "['](https://tenor.com/view/anime-grave-raining-rainy-day-gif-16551009)"
+                ]
+            }
+        }
+    ],
+    "secret": {
+        "girl": {
+            "display": "Partial",
+            "result": {
+                "text": "🎉🐎🎉SPECIAL\n{user}'s HORSE TURNED INTO AN ANIME GIRL!?!?!?!\n['](https://media1.tenor.com/m/87ftSENcNuoAAAAd/tokai-teio-uma-musume.gif)",
+                "type": "girl",
+                "canLose": false
+            }
+        },
+        "plink": {
+            "display": "Plonk",
+            "result": {
+                "text": "🎉🐎🎉SPECIAL\n{user} plinked one to many times\n['](https://media1.tenor.com/m/yvDGxHjtmzgAAAAd/plink-pokemon-card.gif)",
+                "type": "plink",
+                "canLose": false
+            }
+        },
+        "sorrow": {
+            "display": "Death",
+            "result": {
+                "text": "🎉🐎🎉SPECIAL\nA moment of silence please, for {user}'s horses...\n['](https://tenor.com/view/soazzar-gif-19134094)",
+                "type": "sorrow",
+                "canLose": false
+            }
+        },
+        "sirmeowster": {
+            "display": "Sir Meowster",
+            "result": {
+                "text": "🎉🐎🎉SPECIAL\nYou have done well to get me {user}. Now continue to fuel the stables.",
+                "type": "sirmeowster",
+                "canLose": false
+            }
+        }
+    }
+}

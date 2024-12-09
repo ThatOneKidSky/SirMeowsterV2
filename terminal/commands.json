@@ -1,0 +1,71 @@
+{
+    "help": {
+        "alias": ["h", "help"],
+        "help": "Shows this menu",
+        "call": "printHelp"
+    },
+    "ping": {
+        "alias": ["p", "ping"],
+        "help": "Returns True if the bot is online",
+        "call": "requestStatus"
+    },
+    "start": {
+        "alias": ["s", "start"],
+        "subcommands": [
+            {
+                "alias": ["-d", "-debug"],
+                "call": "debug",
+                "help": "Starts in debug mode"
+            },
+            {
+                "alias": ["-ignore"],
+                "call": "ignore",
+                "help": "Starts without a ping check"
+            }
+        ],
+        "help": "Starts the bot",
+        "call": "botStart"
+    },
+    "stop": {
+        "alias": ["stop"],
+        "help": "Stops the bot",
+        "call": "botStop"
+    },
+    "reset": {
+        "alias": ["reset", "restart", "reboot", "r"],
+        "subcommands": [
+            {
+                "alias": ["-t", "-term", "-terminal"],
+                "call": "terminal",
+                "help": "Starts the terminal"
+            },
+            {
+                "alias": ["-b", "-bot"],
+                "call": "bot",
+                "help": "Starts the bot"
+            },
+            {
+                "alias": ["-d", "-debug"],
+                "call": "debug",
+                "help": "Starts in debug mode (only applies to -bot)"
+            }
+        ],
+        "help": "Restarts a task",
+        "call": "restart"
+    },
+    "clearlog": {
+        "alias": ["cl", "clearlog"],
+        "help": "Clears the log file",
+        "call": "clearLog"
+    },
+    "giftpoints": {
+        "alias": ["gp", "gift", "give", "giftpoints", "givepoints"],
+        "help": "Gives a number of points to a user.",
+        "call": "givePoints"
+    },
+    "say": {
+        "alias": ["say"],
+        "help": "Sends a message in the general channel.",
+        "call": "botSay"
+    }
+}
