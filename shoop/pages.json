@@ -1,0 +1,63 @@
+{
+    "default": {
+        "title": "Sir Meowster's Shoop!",
+        "color": "#FF6347",
+        "items": [
+            {
+                "name": "Fabled and Stabled",
+                "description": "Full of stable stables,\nunstable stables,\nand stable unstables",
+                "emoji": "🐴",
+                "locked": false,
+                "call": {
+                    "goto": "stable"
+                }
+            },
+            {
+                "name": "Close",
+                "description": "If this shoop instance is \nsticking around for too long,\nclose it, rid yourself of Sir Meowster.\n(there will be consequences)",
+                "emoji": "❌",
+                "locked": false,
+                "call": {
+                    "function": "closeButton"
+                }
+            }
+        ]
+    },
+    "stable": {
+        "title": "The Fabled and Stabled items (now with extra stables)!",
+        "color": "#FFD700",
+        "backArrow": "default",
+        "items": [
+            {
+                "name": "The Fabled Horse Roll",
+                "description": "The classic horse roll,\ntest your luck?",
+                "emoji": "🐴",
+                "price": {
+                    "points": {
+                        "count": 1,
+                        "acceptDebt": false
+                    }
+                },
+                "locked": false,
+                "call": {
+                    "function": "horseRoll"
+                }
+            },
+            {
+                "name": "Horcerifice",
+                "description": "This could be interesting...\nWhat does this mean?",
+                "emoji": "🔥",
+                "price": {
+                    "horse": {
+                        "count": 1,
+                        "acceptDebt": false
+                    }
+                },
+                "locked": false,
+                "call": {
+                    "function": "horseBurn"
+                }
+            }
+        ]
+    }
+}

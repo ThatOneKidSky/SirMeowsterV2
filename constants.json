@@ -1,0 +1,12 @@
+{
+    "SECRET": {
+        "TOKEN": ""
+    },
+    "host": "localhost",
+    "port": 13673,
+    "DEBUG": false,
+    "generalChannel": 1,
+    "horseChannel": 1,
+    "reactionAdd": 1,
+    "reactionRemove": 1
+}
