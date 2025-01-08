@@ -1,4 +1,4 @@
-﻿import subprocess, time, os, utilities
+import subprocess, time, os, utilities
 import terminal as trm
 from terminal import reboot
 

@@ -1,12 +1,12 @@
 {
     "SECRET": {
-        "TOKEN": ""
+        "TOKEN": "" <- Make sure to set the token :]
     },
     "host": "localhost",
     "port": 13673,
     "DEBUG": false,
-    "generalChannel": 1,
-    "horseChannel": 1,
-    "reactionAdd": 1,
-    "reactionRemove": 1
+    "generalChannel": 0, <- This is the main bot channel
+    "horseChannel": 0, <- This is where the horse rolls go
+    "reactionAdd": 0, <- A id for the emoji for giving a point
+    "reactionRemove": 0 <- And the opposite ^
 }
