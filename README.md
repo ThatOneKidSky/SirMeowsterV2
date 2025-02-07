@@ -3,16 +3,17 @@ This silly little guy is version 2, because my first version was to spagetti to 
 This is nothing more than a passion project to both learn and have fun, as such, don't expect quality code.
 However, if looking at this project helps you in any way, then I think its a win.
 
-# What it does good
+# Features
+**What it does good**
 - Imports math
 
-# What it does bad
+**What it does bad**
 - Social points (Give a bro a point, they can buy things)
 - Horse gambling (I dont think I can even explain)
 - Shoop (Its a shop... with buttons and stuff...)
 - Data storeage (It's probably not as bad as I think it is)
 
-# Why is it so bad?
+**Why is it so bad?**
 - Documentation
 - Readability
 
